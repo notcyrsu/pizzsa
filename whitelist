@@ -28,7 +28,7 @@ for i,v in pairs(whitelist.UserIds) do
 end
  
 if isPassed == false then
-    player:Kick("You are not whitelisted!")
+    player:Kick("Your not whitelisted. U know better!")
     task.wait(3)
     game:Shutdown()
     task.wait(1)
